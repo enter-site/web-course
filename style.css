@@ -1,0 +1,308 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Lato&family=Mooli&family=Nunito+Sans:opsz,wght@6..12,200;6..12,300&family=Nunito:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&family=Roboto&family=Rubik:wght@300;400&display=swap');
+
+::-webkit-scrollbar{
+    width: 10px
+}
+
+::-webkit-scrollbar-track{
+    background-color: rgb(10, 10, 10);
+   
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: cornflowerblue;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(55, 118, 236);
+}
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    caret-color: white;
+}
+
+body {
+    color: white;
+    font-family: 'Mooli', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero{  
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(10, 10, 10);
+
+}
+
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgb(38, 38, 38);
+    
+}
+
+
+@media (max-width: 1120px){
+    .nav ul li{
+        display: none;
+    }
+}
+
+.logo{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.logo span{
+    color: crimson;
+    transition: .3s ease-in-out;
+}
+
+.logo span:hover{
+    color: cornflowerblue;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 50px;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+    border: 1px solid rgb(38, 38, 38);
+}
+
+
+
+nav ul li:hover{
+    background-color: rgb(79, 110, 167);
+}   
+
+
+.text-description{
+    display: inline-flexbox;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    line-height: 80px;
+}
+
+.text1{
+    font-size: 30px;
+
+}
+
+.free-trial-button{
+    background: linear-gradient(to right, red,darkorange, #FFD700);
+    border: 1px solid rgb(38, 38, 38);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 300px;
+    
+}
+
+.free-trial-button:hover{
+    transform: scale(1.1);
+}
+
+
+
+.btn{
+    border-radius: 20px;
+    padding: 10px 20px;
+    background: rgb(79, 110, 167);
+    transition: .3s ease-in-out;
+    border: 1px solid transparent;
+}
+
+.btn:hover{
+    color: rgb(79, 110, 167);
+    background: transparent;
+    border: 1px solid rgb(38, 38, 38);
+
+}
+
+.content {
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    transform: translateY(-50%);
+    line-height: 40px;
+    font-family: 'Lato', sans-serif;
+}
+
+@media (max-width: 976px){
+    .content {
+        position: absolute;
+        top: 60%;
+        left: 10%;
+    }
+}
+
+@media (max-width: 911px){
+    .content {
+        position: absolute;
+        top: 62%;
+        left: 10%;
+    }
+}
+
+.text{
+    font-size: 30px;
+    border-bottom: 1px solid rgb(40, 40, 40);
+    transition: .3s ease-in-out;
+
+}
+
+.text:hover{
+    color: cornflowerblue;
+}
+
+.email{
+    padding-top:12px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+    background: transparent;
+    border:1px solid rgb(38, 38, 38);
+    border-radius: 20px;
+    width: 300px;
+    transition: .3s ease-in-out;
+    color: white;
+    font-size: 20px;
+}
+
+
+.fa-regular{
+    position: relative;
+    right: 30px;
+}
+
+.email:focus{
+    border: 1px solid cornflowerblue;
+    outline: cornflowerblue;
+}
+
+
+.sumbit{
+    padding: 10px 15px;
+    background: transparent;
+    border:1px solid rgb(38, 38, 38);
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    font-size: 20px
+}
+
+.fa-solid{
+    position: relative;
+    right: 30px;
+}
+
+.sumbit:hover{
+    border: 1px solid cornflowerblue;
+    outline: cornflowerblue;
+}
+
+.sumbit:focus{
+    border: 1px solid cornflowerblue;
+    outline: cornflowerblue;
+}
+
+.newsletter {
+    line-height: 80px;
+    
+}
+
+.nba{
+    background: rgb(20,20, 20);
+    border-top: 1px solid rgb(38, 38, 38);
+}
+
+.nba-logo{
+    width: 100px;
+}
+
+.bottom-text{
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    text-align: center;
+    border-bottom: 1px solid rgb(38, 38, 38);
+
+
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+
+.nba-logo-body{
+    width: 200px;
+    float: right;
+    margin-top: 50px;
+}
+
+
+@media (max-width: 1241px){
+    .nba-logo-body{
+        width: 100px;
+    }
+}
+
+
+@media (max-width: 781px){
+    .nba-logo-body{
+        display: none;
+    }
+}
+
+@media (max-width: 521px){
+    .hamburger{
+        display: inline-block;
+    }
+
+    .btn{
+        display: none;
+    }
+
+
+}
+
+

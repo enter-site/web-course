@@ -1,0 +1,287 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Lato&family=Mooli&family=Nunito+Sans:opsz,wght@6..12,200;6..12,300&family=Nunito:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&family=Roboto&family=Rubik:wght@300;400&display=swap');
+
+::-webkit-scrollbar{
+    width: 10px
+}
+
+::-webkit-scrollbar-track{
+    background-color: rgb(10, 10, 10);
+   
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: cornflowerblue;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(55, 118, 236);
+}
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    font-family: 'Mooli', sans-serif;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero{  
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(10, 10, 10);
+
+}
+
+
+
+
+
+
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgb(38, 38, 38);
+}
+
+
+
+@media (max-width: 1120px){
+    .nav ul li{
+        display: none;
+    }
+}
+
+.logo{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.logo span{
+    color: crimson;
+    transition: .3s ease-in-out;
+}
+
+.logo span:hover{
+    color: cornflowerblue;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 50px;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+    border: 1px solid rgb(38, 38, 38);
+}
+
+
+
+nav ul li:hover{
+    background-color: rgb(79, 110, 167);
+}   
+
+.btn{
+    border-radius: 20px;
+    padding: 10px 20px;
+    background: rgb(79, 110, 167);
+    transition: .3s ease-in-out;
+    border: 1px solid transparent;
+}
+
+.btn:hover{
+    color: rgb(79, 110, 167);
+    background: transparent;
+    border: 1px solid rgb(38, 38, 38);
+
+}
+
+
+
+.text{
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: crimson;
+    margin-top: 20px;
+
+}
+
+.text:hover{
+    color: rgb(67, 124, 232);
+}
+
+
+
+.image-container{
+    background: rgb(10, 10, 10);
+    position: absolute;top: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+    border-radius: 20px;
+    border: 5px solid rgb(38, 38, 38);
+    position:absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%, -50%);
+    cursor: pointer;
+}
+
+.image-container p{
+    color: white;
+    background-color: transparent;
+    font-size: 30px;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    left: 0%;
+}
+
+.image-container p span:last-child{
+    color: #FFD700;
+}
+
+
+.image-container p span:first-child{
+    color: rgb(30, 82, 255);
+}
+
+.barca{
+    width: 200px;
+    margin-left: 20px;
+    border-radius: 10px;
+    transition: .3s ease-in-out;
+    margin-bottom: 100px;
+    margin-top: 60px;
+}
+
+
+
+.juve{
+    width: 200px;
+    margin-left: 20px;
+    border-radius: 10px;
+    transition: .3s ease-in-out;
+    margin-bottom: 100px;
+}
+
+.madrid{
+    width: 200px;
+    margin-left: 20px;
+    border-radius: 10px;
+    transition: .3s ease-in-out;
+    margin-bottom: 100px;
+}
+
+.bulls{
+    width: 200px;
+    margin-left: 20px;
+    border-radius: 10px;
+    transition: .3s ease-in-out;
+    margin-bottom: 100px;
+}
+
+.lakers{
+    width: 200px;
+    margin-left: 20px;
+    border-radius: 10px;
+    transition: .3s ease-in-out;
+    margin-bottom: 100px;
+}
+
+.miami{
+    width: 200px;
+    margin-left: 20px;
+    border-radius: 10px;
+    transition: .3s ease-in-out;
+    margin-bottom: 100px;
+}
+
+.psg{
+    width: 200px;
+    margin-left: 20px;
+    border-radius: 10px;
+    transition: .3s ease-in-out;
+    margin-bottom: 100px;
+}
+
+.united{
+    width: 200px;
+    margin-left: 20px;
+    border-radius: 10px;
+    transition: .3s ease-in-out;
+    margin-bottom: 100px;
+    display: inline-block;
+}
+
+.utah{
+    width: 200px;
+    margin-left: 20px;
+    border-radius: 10px;
+    transition: .3s ease-in-out;
+    margin-bottom: 100px;
+    display: block;
+}
+
+.barca:hover{
+    transform: scale(1.2);
+}
+
+.juve:hover{
+    transform: scale(1.2);
+}
+.madrid:hover{
+    transform: scale(1.2);
+}
+.united:hover{
+    transform: scale(1.2);
+}
+.bulls:hover{
+    transform: scale(1.2);
+}
+.lakers:hover{
+    transform: scale(1.2);
+}
+.miami:hover{
+    transform: scale(1.2);
+}
+.psg:hover{
+    transform: scale(1.2);
+}
+
+.utah:hover{
+    transform: scale(1.2);
+}
